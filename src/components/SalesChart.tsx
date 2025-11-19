@@ -151,7 +151,7 @@ export function SalesChart({ data }: SalesChartProps) {
           </p>
         </div>
       </div>
-      <div className="mt-6 flex items-end gap-3">
+      <div className="mt-6 flex flex-wrap items-end gap-2 sm:gap-3">
         {data.map((point) => {
           const isActive = activeDay.day === point.day
           const height = Math.max(
