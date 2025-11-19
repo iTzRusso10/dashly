@@ -309,6 +309,11 @@ body {
   box-shadow: 0 10px 25px rgba(248, 115, 98, 0.3);
 }
 
+.dark .chart-bar-active {
+  background: linear-gradient(to top, #ff9cd6, #ffa3dc, #49e0c3);
+  box-shadow: 0 10px 25px rgba(255, 156, 214, 0.2);
+}
+
 .chart-bar-inactive {
   background: var(--chart-bar-inactive);
 }
